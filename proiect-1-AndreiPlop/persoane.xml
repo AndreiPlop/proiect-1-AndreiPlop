@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <strada>Musatini</strada>
+        <numar>3</numar>
+        <localitate>Iasi</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <liceu>Economic</liceu>
+        <facultate>AC</facultate>
+    </persoana>
+    <persoana id="2">
+        <nume>Gheorghe</nume>
+        <prenume>Adrian</prenume>
+        <varsta>25</varsta>
+        <strada>Roman-Voda</strada>
+        <numar>5</numar>
+        <localitate>Iasi</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <liceu>Economic</liceu>
+        <facultate>AC</facultate>
+    </persoana>
+    <persoana id="3">
+        <nume>Radu</nume>
+        <prenume>Andrei</prenume>
+        <varsta>22</varsta>
+        <strada>Florilor</strada>
+        <numar>6</numar>
+        <localitate>Bacau</localitate>
+        <judet>Bacau</judet>
+        <tara>Romania</tara>
+        <liceu>Economic</liceu>
+        <facultate>AC</facultate>
+    </persoana>
+
+</persoane>
