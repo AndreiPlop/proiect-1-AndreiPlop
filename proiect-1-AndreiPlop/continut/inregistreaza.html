@@ -1,99 +1,105 @@
- <!DOCTYPE html>
-    <html>
-    <head>
-        
-        <meta charset="UTF-8">
-        <title>Inregistreaza</title>
-        <link rel="stylesheet" href="css/stil.css">
-        <link rel = "icon" href ="favicon.ico"  type = "image/x-icon"> 
-        
-    </head>
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Inregistreaza</title>
+    <link rel="stylesheet" href="css/stil.css">
+    <link rel = "icon" href ="favicon.ico"  type = "image/x-icon"> 
+    
+</head>
 
-    <body>
-        <header>
-            <h1>Inregistreaza</h1>
-        </header>
-        <nav class="topnav">
-            <a class="active" href="inregistreaza.html">Inregistreaza</a>
-            <a href="video.html">Video</a>
-            <a href="index.html">Contact</a>
-            <a href="despre_html.html">Despre</a>
-            <a href="desen.html">Desen</a>
-            <a href="invat_js.html">Invat JS</a>
-          </nav><br/>
+<body>
+    <header>
+        <h1>Inregistreaza</h1>
+    </header>
+    <nav class="topnav">
+        <a class="active" href="inregistreaza.html">Inregistreaza</a>
+        <a href="video.html">Video</a>
+        <a href="index.html">Contact</a>
+        <a href="despre_html.html">Despre</a>
+        <a href="desen.html">Desen</a>
+        <a href="invat_js.html">Invat JS</a>
+        <a href="cumparaturi.html">Cumparaturi</a>
 
-        
-          <h2>Informatii generale</h2>
-          <p class="inset">An inset border.</p>
-          <form>
-            <fieldset>
-                <a name="Informaţii generale", id="infogeneral"></a>
-                <legend>Informaţii generale</legend>
-                <label for="nume_utilizator">Nume utilizator:</label>
-                <input type="text" id="nume_utilizator" name="nume_utilizator"><br/>
-                <label for="Parola">Parola:</label>
-                <input type="password" id="password" name="password"><br/>
-                <label for="nume">Nume:</label>
-                <input type="text" id="nume" name="nume"><br/>
-                <label for="prenume">Prenume:</label>
-                <input type="text" id="prenume" name="prenume"><br/>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br/>
-                <label for="telefon">Telefon:</label>
-                <input type="tel" id="telefon" name="telefon"><br/>
-            </fieldset>
-            <fieldset>
-                <a name="Informaţii personale", id="infopers"></a>
-                <legend>Informaţii personale</legend>
-                <label for="sex">Sexul:</label>
-                <select id="sex" name="sex">
-                    <option value="feminin">feminin</option>
-                    <option value="masculin">masculin</option>
-                </select><br/>
-                <label for="mancare2">Mâncarea preferată:</label>
-                <input list="mancare" name="mancare2" id="mancare3">
-                <datalist id="mancare">
-                    <option value="Cartofi prăjiţi"></option>
-                    <option value="Pizza"></option>
-                    <option value="Paste bolognese"></option>
-                    <option value="Piept de raţă"></option>
-                    <option value="Class"></option>
-                </datalist><br/>
-                <label for="colors">Culoare preferată:</label>
-                <input type="color" id="colors" name="colors"><br/>
-                <label for="data">Data naşterii:</label>
-                <input type="date" id="data" name="data"><br/>
-                <label for="ora">Ora naşterii:</label>
-                <input type="time" id="ora" name="ora"><br/>
-                <label for="age">Varsta</label>
-                <input type="range" list="ageList"></br>
-                <datalist id="ageList">
-                    <option value "5"></option>
-                    <option value "10"></option>
-                    <option value "15"></option>
-                    <option value "20"></option>
-                    <option value "25"></option>
-                    <option value "30"></option>
-                    <option value "35"></option>
-                    <option value "40"></option>
-                    <option value "45"></option>
-                    <option value "50"></option>
-                    <option value "55"></option>
-                    <option value "60+"></option>
-                </datalist>
-                <label for="pag">Adresa paginii personale:</label>
-                <input type="url" id="pag" name="pag"><br/>
-                <label for="descriere">Descriere:</label>
-                <textarea id="descriere" name="descriere" rows="4" cols="50"></textarea><br/>
-            </fieldset>
-            <fieldset>
-                <a name="Inregistrare", id="inregistrare"></a>
-                <button type="button" disabled>Inregistreaza</button> 
-            </fieldset>
-        </form>
-        
+      </nav><br/>
 
-        
+    
+      <h2>Informatii generale</h2>
+      <p class="inset">An inset border.</p>
+      <form>
+        <fieldset>
+            <a name="Informaţii generale", id="infogeneral"></a>
+            <legend>Informaţii generale</legend>
+            <label for="nume_utilizator">Nume utilizator:</label>
+            <input type="text" id="nume_utilizator" name="nume_utilizator"><br/>
+            <label for="Parola">Parola:</label>
+            <input type="password" id="password" name="password"><br/>
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume"><br/>
+            <label for="prenume">Prenume:</label>
+            <input type="text" id="prenume" name="prenume"><br/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br/>
+            <label for="telefon">Telefon:</label>
+            <input type="tel" id="telefon" name="telefon"><br/>
+        </fieldset>
+        <fieldset>
+            <a name="Informaţii personale", id="infopers"></a>
+            <legend>Informaţii personale</legend>
+            <label for="sex">Sexul:</label>
+            <select id="sex" name="sex">
+                <option value="feminin">feminin</option>
+                <option value="masculin">masculin</option>
+            </select><br/>
+            <label for="mancare2">Mâncarea preferată:</label>
+            <input list="mancare" name="mancare2" id="mancare3">
+            <datalist id="mancare">
+                <option value="Cartofi prăjiţi"></option>
+                <option value="Pizza"></option>
+                <option value="Paste"></option>
+                <option value="Piept de raţă"></option>
+                <option value="Mici"></option>
+                <option value="Ciorba"></option>
+                <option value="Kebab"></option>
+                <option value="Sarmale"></option>
+                <option value="Salata"></option>
+            </datalist><br/>
+            <label for="colors">Culoare preferată:</label>
+            <input type="color" id="colors" name="colors"><br/>
+            <label for="data">Data naşterii:</label>
+            <input type="date" id="data" name="data"><br/>
+            <label for="ora">Ora naşterii:</label>
+            <input type="time" id="ora" name="ora"><br/>
+            <label for="age">Varsta</label>
+            <input type="range" list="ageList"></br>
+            <datalist id="ageList">
+                <option value "5"></option>
+                <option value "10"></option>
+                <option value "15"></option>
+                <option value "20"></option>
+                <option value "25"></option>
+                <option value "30"></option>
+                <option value "35"></option>
+                <option value "40"></option>
+                <option value "45"></option>
+                <option value "50"></option>
+                <option value "55"></option>
+                <option value "60+"></option>
+            </datalist>
+            <label for="pag">Adresa paginii personale:</label>
+            <input type="url" id="pag" name="pag"><br/>
+            <label for="descriere">Descriere:</label>
+            <textarea id="descriere" name="descriere" rows="4" cols="50"></textarea><br/>
+        </fieldset>
+        <fieldset>
+            <a name="Inregistrare", id="inregistrare"></a>
+            <button type="button" disabled>Inregistreaza</button> 
+        </fieldset>
+    </form>
+    
 
-    </body>
+    
+
+</body>
 </html> 

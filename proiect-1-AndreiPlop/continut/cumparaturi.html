@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/stil.css" />
+       
+</head>
+
+<body>
+    <header>
+        <h1>Cumpărături</h1>
+    </header>
+    <nav class="topnav">
+        <a class="active" href="inregistreaza.html">Inregistreaza</a>
+        <a href="video.html">Video</a>
+        <a href="index.html">Contact</a>
+        <a href="despre_html.html">Despre</a>
+        <a href="desen.html">Desen</a>
+        <a href="invat_js.html">Invat JS</a>
+        <a href="cumparaturi.html">Cumparaturi</a>
+
+      </nav><br/>
+</body>
+</html>
+
+<hr/>
+<form>
+    <label>Nume Produs</label>
+    <input type="text" id="nume_produs">
+    <br/>
+    <label>Cantitate</label>
+    <input type="number" id="cantitate_produs">
+    <br/>
+    <button onclick="adauga_prod(nume_produs.value,cantitate_produs.value);return false;">Adauga</button>
+</form>
